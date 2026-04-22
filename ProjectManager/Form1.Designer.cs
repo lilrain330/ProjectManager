@@ -2,22 +2,22 @@
 {
     partial class Form1
     {
-        private System.ComponentModel.IContainer components = null;
+        public System.ComponentModel.IContainer components = null;
 
-        internal System.Windows.Forms.TextBox txtName;
-        internal System.Windows.Forms.TextBox txtDescription;
-        internal System.Windows.Forms.DateTimePicker dtpStart;
-        internal System.Windows.Forms.DateTimePicker dtpEnd;
-        internal System.Windows.Forms.TextBox txtProgress;
-        internal System.Windows.Forms.Button btnAdd;
-        internal System.Windows.Forms.Button btnRemove;
-        internal System.Windows.Forms.Button btnUpdateProgress;
-        internal System.Windows.Forms.ListBox projectsListBox;
-        internal System.Windows.Forms.Label lblName;
-        internal System.Windows.Forms.Label lblDescription;
-        internal System.Windows.Forms.Label lblStart;
-        internal System.Windows.Forms.Label lblEnd;
-        internal System.Windows.Forms.Label lblProgress;
+        public System.Windows.Forms.TextBox txtName;
+        public System.Windows.Forms.TextBox txtDescription;
+        public System.Windows.Forms.DateTimePicker dtpStart;
+        public System.Windows.Forms.DateTimePicker dtpEnd;
+        public System.Windows.Forms.TextBox txtProgress;
+        public System.Windows.Forms.Button btnAdd;
+        public System.Windows.Forms.Button btnRemove;
+        public System.Windows.Forms.Button btnUpdateProgress;
+        public System.Windows.Forms.ListBox projectsListBox;
+        public System.Windows.Forms.Label lblName;
+        public System.Windows.Forms.Label lblDescription;
+        public System.Windows.Forms.Label lblStart;
+        public System.Windows.Forms.Label lblEnd;
+        public System.Windows.Forms.Label lblProgress;
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -25,7 +25,7 @@
             base.Dispose(disposing);
         }
 
-        private void InitializeComponent()
+        public void InitializeComponent()
         {
             this.lblName = new System.Windows.Forms.Label();
             this.lblDescription = new System.Windows.Forms.Label();
